@@ -27,5 +27,7 @@ app.get ('/',(req,res)=>{
 //router
 app.use('/api',require('./routes/router'))  
 
+
+
 const port = process.env.PORT || 5000
 app.listen(port,()=>console.log(`start server in port ${port}`))
