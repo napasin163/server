@@ -23,7 +23,7 @@ app.get ('/',(req,res)=>{
     res.send("Sever Request")
 })
 
-
+//test
 //router
 app.use('/api',require('./routes/router'))  
 
